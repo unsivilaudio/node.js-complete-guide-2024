@@ -1,0 +1,6 @@
+node_modules
+nodemon.json
+package-lock.json
+.env*
+.vscode
+!**/*/.vscode

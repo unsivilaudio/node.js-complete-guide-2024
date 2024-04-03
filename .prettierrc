@@ -1,0 +1,21 @@
+{
+    "printWidth": 80,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "overrides": [
+        {
+            "files": "*.ejs",
+            "options": {
+                "tabWidth": 4,
+                "printWidth": 120
+            }
+        },
+        {
+            "files": ["**/src/**/*.js"],
+            "options": {
+                "tabWidth": 4,
+                "printWidth": 120
+            }
+        }
+    ]
+}

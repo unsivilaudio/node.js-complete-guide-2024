@@ -1,0 +1,6 @@
+{
+    "deno.enable": true,
+    "deno.enablePaths": ["./deno"],
+    "deno.lint": true,
+    "deno.unstable": true
+}

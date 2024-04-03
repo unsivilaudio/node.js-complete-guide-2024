@@ -1,0 +1,6 @@
+extends layouts/main-layout.pug
+
+block content
+    form(action="/add-user", method="POST")
+        input(type="text", name="username")
+        button(type="submit") Add User

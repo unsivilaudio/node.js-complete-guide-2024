@@ -1,0 +1,29 @@
+{
+    "name": "node.js-complete-guide",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "chai": "^5.1.0",
+        "express": "^4.19.2",
+        "express-validator": "^7.0.1",
+        "jsonwebtoken": "^9.0.2",
+        "mocha": "^10.4.0",
+        "mongoose": "^8.2.4",
+        "multer": "^1.4.5-lts.1",
+        "npm": "^10.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0",
+        "sinon": "^17.0.1"
+    }
+}
