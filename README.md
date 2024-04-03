@@ -10,7 +10,7 @@
 
     - each section contains multiple snapshots throughout the section
 
-2. The `attachments` folder is also separated into different course sections and contains any relevant attachments from the section
+2. The `attachments` folder is also separated into different course sections and contains any relevant attachments from the section, as well as starting snapshots (if applicable)
 
 3. The `slides` folder contains a single pdf document of all the slides in this course
     - I may split it up in the future, but I've already spent a tremendous amount of time compiling this repository, so it will have to be a later date.
