@@ -28,6 +28,8 @@ const store = new MongoDBStore({
 const csrfProtection = csrf({
     getSecret: () => 'supersecret',
     getTokenFromRequest: (req) => req.body._csrf,
+    // __HOST and __SECURE are blocked in chrome, change name
+    cookieName: '__APP-psfi.x-csrf-token',
 });
 
 app.set('view engine', 'ejs');
